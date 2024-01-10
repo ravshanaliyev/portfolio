@@ -18,14 +18,15 @@
 
 .logo-wrapper {
     display: flex;
-    align-items: center;
+    align-items: center !important;
+    justify-content: center;
     gap: 10px;
     font-size: 18px;
-    padding-top: 1rem;
+    margin: 0 !important;
 }
 
 .logo {
-    width: 3rem;
+    width: 2.5rem;
     height: auto;
 }
 
